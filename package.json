@@ -1,0 +1,17 @@
+{
+  "name": "lead-triage-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that summarizes and scores inbound leads for company structuring / back office / fractional CFO services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.45.1"
+  }
+}
